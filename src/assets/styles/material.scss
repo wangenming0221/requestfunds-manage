@@ -1,0 +1,34 @@
+.redRow {
+  background-color: #fde2e2 !important;
+}
+
+.blueRow {
+  background-color: #e2f4fd !important;
+}
+.noneColumn{
+  display: none !important;
+}
+.redHeader {
+  color: #f56c6c;
+}
+.redHeader::after {
+  content: "*";
+  color: #f56c6c;
+}
+.null-border .el-input__inner,
+.null-border .el-textarea__inner {
+  border: 0;
+  //text-align: left;
+  //border-bottom: 1px solid #e4e7ed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.null-border .el-input.is-disabled .el-input__inner,
+.null-border .el-textarea.is-disabled .el-textarea__inner {
+  background: rgba(255, 255, 255, 0);
+  color: #303133;
+}
+.tender-form .el-input-number .el-input__inner {
+  text-align: left;
+}
